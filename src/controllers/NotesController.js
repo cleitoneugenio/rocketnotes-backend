@@ -30,9 +30,6 @@ class NotesController {
         });
 
         await knex("tags").insert(tagsInsert);
-        console.log(tags);
-        console.log("test");
-        console.log("teste 04")
 
         return response.json();
       }

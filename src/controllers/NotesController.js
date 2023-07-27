@@ -33,6 +33,7 @@ class NotesController {
 
         console.log(tags);
         console.log("test");
+        console.log("test, Funciona?")
 
         return response.json();
       }

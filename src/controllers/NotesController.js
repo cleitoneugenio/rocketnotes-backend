@@ -31,11 +31,6 @@ class NotesController {
 
         await knex("tags").insert(tagsInsert);
 
-        console.log(tags);
-        console.log("test");
-        console.log("test, Funciona?")
-        console.log("Funciona caraioooo")
-
         return response.json();
       }
     

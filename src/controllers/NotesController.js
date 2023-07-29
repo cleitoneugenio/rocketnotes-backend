@@ -34,6 +34,7 @@ class NotesController {
         console.log(tags);
         console.log("test");
         console.log("test, Funciona?")
+        console.log("Funciona caraioooo")
 
         return response.json();
       }

@@ -65,6 +65,7 @@ class NotesController {
         let notes;
 
         console.log("test");
+        console.log("teste 2")
 
         if(tags) {
             const filterTags = tags.split(',').map(tag => tag.trim());
